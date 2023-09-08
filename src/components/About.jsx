@@ -1,5 +1,4 @@
 import React from "react";
-// import Tilty from "react-tilty";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -50,11 +49,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+ I am a recent computer science graduate with a strong foundation in
+JavaScript, Arduino programming, machine learning, data science, and
+software engineering. I excel in developing dynamic web applications,
+integrating hardware and software, and leveraging machine learning
+algorithms. As a software engineer, I prioritize clean code and
+collaborative problem-solving. Making a positive impact and staying
+up-to-date with advancements in technology drive my passion for this
+field. I look forward to contributing my skills and enthusiasm to your
+organization.
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

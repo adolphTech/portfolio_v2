@@ -16,6 +16,7 @@ import {
     figma,
     docker,
     meta,
+    knh,
     starbucks,
     tesla,
     shopify,
@@ -32,7 +33,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id:"projects",
+      title:"Projects"
     },
     {
       id: "contact",
@@ -42,19 +47,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineering",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Computer Science",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Machine Learning",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Javascript Programming",
       icon: creator,
     },
   ];
@@ -116,24 +121,27 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Computer Science Attachment",
+      company_name: "Kenyatta National Hospital",
+      icon: knh,
+      iconBg: "#fffff",
+      date: "July 2022 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Design and development of the ppm/repair app for the ICT workshop.",
+        "Team up in software development of business systems.",
+        " Hardware and software troubleshooting.",
+        "Hardware repair and maintenance",
+       "Planned preventive maintenance of servers and network devices.",
+       " Trunking and cable management",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Full Stack Developer",
+      company_name: "ACG ltd.",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2021 - to Date",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,32 +149,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [

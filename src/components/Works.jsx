@@ -1,5 +1,4 @@
 import React from "react";
-// import Tilty from "react-tilty";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -108,4 +107,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
