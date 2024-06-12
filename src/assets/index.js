@@ -25,7 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import knh from "./company/knh.png"
+import knh from "./company/knh.png";
+import ncba from "./company/ncba.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -38,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  ncba,
   menu,
   close,
   css,

@@ -8,6 +8,7 @@ import {
     html,
     css,
     reactjs,
+    ncba,
     redux,
     tailwind,
     nodejs,
@@ -121,6 +122,34 @@ import {
   
   const experiences = [
     {
+      title: "DATA SCIENTIST",
+      company_name: "NCBA.",
+      icon: ncba,
+      iconBg: "#E6DEDD",
+      date: "April 2024 - to Date",
+      points: [
+        "Reduced customer churn by % through the implementation of targeted retention strategies based on predictive modeling.",
+        "Got a Strong understanding of big data technologies and their applications in a business context.",
+        " Designed and executed A/B tests to evaluate the effectiveness of website optimizations, analyzing results with rigorous statistical methods (t-tests, chi-squared tests) to identify winning variants.",
+        "Utilized statistical techniques (cluster analysis, regression, forecasting) to segment customers, predict customer lifetime value, and inform targeted marketing campaigns",
+       "Leveraged SQL to extract and manipulate large sales datasets, combined with Python/Perl scripting for in-depth analysis and visualization, revealing key insights for sales optimization",
+      "Applied advanced data mining techniques (e.g., decision trees, random forests) to identify patterns in customer behavior, leading to the development of predictive models for churn prevention and targeted retention strategies."
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "ACG ltd.",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - April 2024",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
       title: "Computer Science Attachment",
       company_name: "Kenyatta National Hospital",
       icon: knh,
@@ -136,19 +165,7 @@ import {
        " Trunking and cable management",
       ],
     },
-    {
-      title: "Full Stack Developer",
-      company_name: "ACG ltd.",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - to Date",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
    
   ];
   
