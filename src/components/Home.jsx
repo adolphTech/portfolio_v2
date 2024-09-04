@@ -7,6 +7,7 @@ import logo from "./jiraiya.jpg";
 function Home() {
   const avatarUrl =
     "https://res.cloudinary.com/dchhoja40/image/upload/v1683644427/ady/ady-logo_ttrcnp.png";
+    // "https://asset.cloudinary.com/dchhoja40/c5210a7f5acacbf33686f92a25c20075"
 
   return (
     <div className="home-component bg-gray-900 text-white mt-20 bg-primary">
