@@ -28,7 +28,7 @@ function Home() {
             {/* Adjust margin-top here */}
             <div>
               <div className="flex justify-center ">
-                <p className="text-4xl font-bold ">Adolph Odhiambo</p>
+                <p className="text-4xl font-bold ">AdolphYYY Odhiambo</p>
               </div>
 
               <div className="flex space-x-4 mt-4 justify-center">
